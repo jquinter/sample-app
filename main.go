@@ -43,7 +43,7 @@ type Instance struct {
 	Error      string
 }
 
-var version string
+var version string = "2.0.1"
 
 func main() {
         version_bytes, err := ioutil.ReadFile("VERSION")
